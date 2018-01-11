@@ -1,0 +1,34 @@
+﻿@model ProjetoTesteDDD.MVC.ViewModels.TipoMaterialViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TipoMaterialViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DevolucaoEmDias)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DevolucaoEmDias)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TipoMaterialId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

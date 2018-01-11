@@ -1,0 +1,11 @@
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\bin\Debug\ProjetoTesteDDD.WCF.dll.config
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\bin\Debug\ProjetoTesteDDD.WCF.dll
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\bin\Debug\ProjetoTesteDDD.WCF.pdb
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\bin\Debug\ProjetoTesteDDD.Domain.dll
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\bin\Debug\ProjetoTesteDDD.Infra.dll
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\bin\Debug\ProjetoTesteDDD.Domain.pdb
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\bin\Debug\ProjetoTesteDDD.Infra.pdb
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\obj\Debug\ProjetoTesteDDD.WCF.csprojResolveAssemblyReference.cache
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\obj\Debug\ProjetoTesteDDD.WCF.csproj.CoreCompileInputs.cache
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\obj\Debug\ProjetoTesteDDD.WCF.dll
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.WCF\obj\Debug\ProjetoTesteDDD.WCF.pdb

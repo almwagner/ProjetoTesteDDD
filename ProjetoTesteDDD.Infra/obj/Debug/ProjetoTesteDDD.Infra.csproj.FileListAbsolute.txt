@@ -1,0 +1,8 @@
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Infra\bin\Debug\ProjetoTesteDDD.Infra.dll
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Infra\bin\Debug\ProjetoTesteDDD.Infra.pdb
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Infra\bin\Debug\ProjetoTesteDDD.Domain.dll
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Infra\bin\Debug\ProjetoTesteDDD.Domain.pdb
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Infra\obj\Debug\ProjetoTesteDDD.Infra.csprojResolveAssemblyReference.cache
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Infra\obj\Debug\ProjetoTesteDDD.Infra.csproj.CoreCompileInputs.cache
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Infra\obj\Debug\ProjetoTesteDDD.Infra.dll
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Infra\obj\Debug\ProjetoTesteDDD.Infra.pdb

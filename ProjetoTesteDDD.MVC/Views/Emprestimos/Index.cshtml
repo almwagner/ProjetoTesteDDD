@@ -1,0 +1,71 @@
+﻿@model IEnumerable<ProjetoTesteDDD.MVC.ViewModels.EmprestimoViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Código")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClienteId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaterialId)
+        </th>
+        <th>
+            @Html.DisplayName("Devolver em")
+        </th>
+        <th>
+            @Html.DisplayName("Devolvido em")
+        </th>
+        <th>
+            @Html.DisplayName("Devolvido?")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmprestimoId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClienteNome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaterialDescricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataDevolverDescricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataDevolucaoDescricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DevolvidoDescricao)
+        </td>
+        <td>
+            @if (item.DevolvidoDescricao != "Sim")
+            {
+                @Html.ActionLink("Edit", "Edit", new { id = item.EmprestimoId }) @:|
+            }
+
+            @Html.ActionLink("Details", "Details", new { id = item.EmprestimoId })
+
+            @if (item.DevolvidoDescricao != "Sim")
+            {
+                @:| @Html.ActionLink("Devolver", "Devolver", new { id = item.EmprestimoId })
+            }
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,5 @@
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Domain\bin\Debug\ProjetoTesteDDD.Domain.dll
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Domain\bin\Debug\ProjetoTesteDDD.Domain.pdb
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Domain\obj\Debug\ProjetoTesteDDD.Domain.csproj.CoreCompileInputs.cache
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Domain\obj\Debug\ProjetoTesteDDD.Domain.dll
+C:\Temp\Projetos Testes\ProjetoTesteDDD\ProjetoTesteDDD.Domain\obj\Debug\ProjetoTesteDDD.Domain.pdb
