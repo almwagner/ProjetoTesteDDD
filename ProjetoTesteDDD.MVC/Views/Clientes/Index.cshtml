@@ -9,6 +9,40 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
+<div class="row">
+    <div class="col-md-12">
+        <p><b>Filtros:</b></p>
+    </div>
+</div>
+
+@using (Html.BeginForm("Index","Clientes",FormMethod.Get))
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label>Código</label>
+                <input type="text" class="form-control" id="clienteId" name="clienteId" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label>Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input type="submit" name="submit" value="Pesquisar" />
+            </div>
+        </div>
+    </div>
+}
+
 <table class="table">
     <tr>
         <th>

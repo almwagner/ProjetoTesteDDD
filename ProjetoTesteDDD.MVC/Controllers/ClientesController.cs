@@ -11,9 +11,9 @@ namespace ProjetoTesteDDD.MVC.Controllers
         private readonly ServiceClient _wcfServiceClient = new ServiceClient();
 
         // GET: Clientes
-        public ActionResult Index(string id, string nome)
+        public ActionResult Index(string clienteId, string nome)
         {
-            var clientes = _wcfServiceClient.GetClienteAllWithFilters(id, nome);
+            var clientes = _wcfServiceClient.GetClienteAllWithFilters(clienteId, nome);
             IEnumerable<ClienteViewModel> clienteViewModels = Mapper.Map<IEnumerable<Cliente>, IEnumerable<ClienteViewModel>>(clientes);
 
             return View(clienteViewModels);
